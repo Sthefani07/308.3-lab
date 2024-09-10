@@ -1,11 +1,13 @@
 // Loop through all numbers from 1 to 100.
-
+let num = 100;
+while (num > 0) {
+  console.log(num);
+  num--;
+}
 
 // If a number is divisible by 3, log “Fizz.”
 
-
 // If a number is divisible by 5, log “Buzz.”
-
 
 // If a number is divisible by both 3 and 5, log “Fizz Buzz.”
 
