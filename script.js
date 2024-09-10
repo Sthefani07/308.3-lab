@@ -1,4 +1,5 @@
 // Loop through all numbers from 1 to 100.
+
 let num = 100;
 while (num > 0) {
   console.log(num);
