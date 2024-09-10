@@ -7,16 +7,23 @@
 // }
 
 // If a number is divisible by 3, log “Fizz.”
-
+for (let i = 0; i <= 20; i++) {
+  if (i % 3 === 0) {
+    console.log(i + "Buzz");
+  } else {
+    console.log(i);
+  }
+}
 
 // If a number is divisible by 5, log “Buzz.”
-for (let i = 0; i <= 20; i++){
-    if (i % 5 === 0){
-        console.log(i + "Buzz");
-    }else {
-        console.log(i)
-    }
-}
+
+// for (let i = 0; i <= 20; i++){
+//     if (i % 5 === 0){
+//         console.log(i + "Buzz");
+//     }else {
+//         console.log(i)
+//     }
+// }
 
 // If a number is divisible by both 3 and 5, log “Fizz Buzz.”
 
