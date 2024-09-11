@@ -50,3 +50,23 @@
 
 // __________________________PART 2__________
 
+// Loop through the characters of a given CSV string.
+csv_string = `ID,Name,Occupation, Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26`
+
+// Store each “cell” of data in a variable.
+let rows = csv_string.split("\n");
+
+// When you encounter a comma, move to the next cell.
+for (let i = 0; i < rows.length; i++){
+    let cells = rows[i].split(",");
+    console.log(cells[0],cells[1],cells[2], cells[3]);
+}
+
+
+// When you encounter the “\r\n” sequence, move to the next “row.”
+
+// Log each row of data.
+
+// There will only be 4 cells per row.
+
+// There will be no escaped characters other than “\n”.
